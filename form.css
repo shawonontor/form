@@ -1,0 +1,44 @@
+nav >ul{
+    display: flex;
+    list-style: none;
+}
+nav > ul  > li{
+    
+    margin-right: 10px;
+}
+nav > ul  > li >a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 10px;
+}
+nav > ul  > li:hover{
+    background-color: brown;
+    
+}
+nav > ul  > li>a:hover{
+    color: chartreuse;
+}
+table td {
+    border: 2px solid black;
+    padding: 10px 12px;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    border: 2px solid black;
+}
+nav > ul  > li>ul{
+    list-style: none;
+}
+/* controls nested menu */
+nav li .dropdown{
+    display: none;
+    padding-left: 15px;
+    background-color: gold;
+    margin-bottom: 9px;
+}
+nav li:hover .dropdown{
+
+    display: block;
+}
